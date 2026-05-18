@@ -1,0 +1,29 @@
+/* Lists */
+ul {
+  list-style-type: square; /* Bullets as squares */
+  margin-left: 20px;
+}
+ol {
+  list-style-type: decimal; /* Numbers */
+  margin-left: 20px;
+}
+li {
+  margin: 5px 0;
+}
+
+/* Links */
+a {
+  color: #2980b9; /* Blue links */
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #e74c3c; /* Red on hover */
+}
+
+/* Images */
+img {
+  border: 2px solid #555;
+  margin: 10px 0;
+  border-radius: 5px;
+}
