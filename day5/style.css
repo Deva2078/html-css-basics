@@ -1,0 +1,45 @@
+/* Box Model Example */
+.box-model {
+  width: 200px;
+  height: 100px;
+  background-color: #3498db; /* Content */
+  padding: 20px;             /* Inner space */
+  border: 5px solid #2c3e50; /* Border */
+  margin: 15px;              /* Outer space */
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  box-sizing: content-box;   /* Default box model */
+}
+
+/* Flexbox Example */
+.flex-container {
+  display: flex;
+  justify-content: space-around; /* Horizontal spacing */
+  align-items: center;           /* Vertical alignment */
+  background-color: #ecf0f1;
+  padding: 10px;
+}
+.flex-item {
+  background-color: #e74c3c;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+  flex: 1; /* Items grow equally */
+  text-align: center;
+}
+
+/* Grid Example */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 10px; /* Space between items */
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #27ae60;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
