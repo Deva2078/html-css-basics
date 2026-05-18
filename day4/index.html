@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day 4 - CSS Selectors, Colors, Fonts</title>
+
+  <!-- Internal CSS -->
+  <style>
+    /* Internal CSS example */
+    #internal-example {
+      color: darkgreen;
+      font-weight: bold;
+      background-color: #f0f0f0;
+      padding: 5px;
+    }
+  </style>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1 class="main-heading">Day 4: CSS Selectors, Colors, Fonts</h1>
+
+  <!-- Inline CSS -->
+  <p style="color: blue; font-size: 18px;">
+    This paragraph uses <b>inline CSS</b> (style attribute directly inside the tag).
+  </p>
+
+  <!-- Internal CSS -->
+  <p id="internal-example">
+    This paragraph is styled using <b>internal CSS</b> (inside the <code>&lt;style&gt;</code> block in the head).
+  </p>
+
+  <!-- External CSS -->
+  <p class="highlight">
+    This paragraph is styled using <b>external CSS</b> (rules defined in styles.css file).
+  </p>
+
+  <!-- Demonstrating selectors -->
+  <h2>Selectors Recap</h2>
+  <p id="intro">This uses an ID selector (#intro).</p>
+  <p class="highlight">This uses a class selector (.highlight).</p>
+  <p>All paragraphs are styled by element selector (p).</p>
+
+  <!-- Colors -->
+  <h2>Colors Example</h2>
+  <p class="color-red">This text is red.</p>
+  <p class="color-green">This text is green.</p>
+  <p class="color-blue">This text is blue.</p>
+
+  <!-- Fonts -->
+  <h2>Fonts Example</h2>
+  <p class="font-serif">This text uses a serif font.</p>
+  <p class="font-sans">This text uses a sans-serif font.</p>
+  <p class="font-mono">This text uses a monospace font.</p>
+</body>
+</html>
