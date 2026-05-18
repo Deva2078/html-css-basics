@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 3 - Forms and Inputs</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Linking CSS -->
+  </head>
+  <body>
+    <center>
+      <h1>Day 3: Forms and Inputs</h1>
+
+      <!-- Basic Form -->
+      <h2>Simple Form Example</h2>
+      <form action="#" method="post">
+        <!-- Text input -->
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        />
+        <br /><br />
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+        />
+        <br /><br />
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <br /><br />
+
+        <!-- Radio buttons -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <br /><br />
+
+        <!-- Checkboxes -->
+        <p>Interests:</p>
+        <input type="checkbox" id="coding" name="interest" value="coding" />
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="music" name="interest" value="music" />
+        <label for="music">Music</label>
+        <input type="checkbox" id="sports" name="interest" value="sports" />
+        <label for="sports">Sports</label>
+        <br /><br />
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="india">India</option>
+          <option value="usa">USA</option>
+          <option value="uk">UK</option>
+        </select>
+        <br /><br />
+
+        <!-- Textarea -->
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="40"
+          placeholder="Write something..."
+        ></textarea>
+        <br /><br />
+
+        <!-- Submit and Reset buttons -->
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </form>
+    </center>
+  </body>
+</html>
