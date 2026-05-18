@@ -27,3 +27,12 @@ img {
   margin: 10px 0;
   border-radius: 5px;
 }
+
+/* Multimedia styling */
+audio, video, iframe {
+  display: block;
+  margin: 15px 0;
+  border: 2px solid #555;
+  border-radius: 6px;
+}
+
